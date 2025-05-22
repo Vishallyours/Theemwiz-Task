@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
     return (
-    <div className='flex justify-between items-center px-4 md:px-24 py-4 text-white bg-[#28293E] w-full'>
+    <div className='flex justify-between items-center px-4 md:px-36 py-4 text-white bg-[#28293E] w-full'>
             
         <div className='flex items-center sm:w-24 md:w-auto'> 
             <svg width="152" height="48" viewBox="0 0 152 48" fill="none"   xmlns="http://www.w3.org/2000/svg">
@@ -19,7 +19,7 @@ function Navbar() {
             </svg>
         </div>
 
-            <ul className='hidden md:flex gap-24 text-white/70 items-center  '>
+            <ul className='hidden md:flex gap-24 pt-4 text-white/70 items-center font-epilogue'>
                 <li>About</li>
                 <li>Services</li>
                 <li>Pricing</li>
