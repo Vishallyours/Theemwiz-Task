@@ -21,10 +21,10 @@ const SectionCard = ({
     return (
 <div className={`hero-left font-epilogue flex flex-col md:gap-10 gap-4 z-10 relative ${wrapperClassName}`}>
             <img src={bgImage}alt="star" className={`hidden md:flex w-36 h-36 -z-10 top-6 right-24 absolute ${bgImageClassName}`} />
-            <span className={`tracking-widest text-base text-rose-500`}>
+            <span className={`tracking-widest text-xl text-rose-500`}>
                 {title}
             </span>
-            <span className={`flex md:text-7xl text-6xl font-extrabold leading-none ${headingClassName}`}>{heading}
+            <span className={`flex font-extrabold leading-none ${headingClassName}`}>{heading}
             </span>
                 <span className={`flex text-xl ${subHeadingClassName}`}>{subHeading}</span>
             <span className={`flex text-wrap leading-10 md:-my-2 text-black/65 text-lg ${descriptionClassName}`}>{description}</span>
