@@ -7,11 +7,11 @@ const EmployeeCard = ({
     return (
         
         <div className="flex flex-col gap-2  w-auto ">
-            <div className=" flex justify-center border border-white/40 w-72 h-64 p-4 pb-0">
+            <div className=" flex justify-center rounded-lg border border-white/40 w-64 h-64 py-4 pb-0">
                 <img src={empImage} alt="" />
             </div>
-            <span className="text-xl">{empName}</span>
-            <span className="text-white-10 text-sm ">{empDezig}</span>
+            <span className="pt-4 text-2xl font-bold">{empName}</span>
+            <span className="text-white/50 text-base ">{empDezig}</span>
 
         </div>
     )

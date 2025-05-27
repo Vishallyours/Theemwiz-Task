@@ -1,14 +1,14 @@
 import { useState } from "react";
 
-const Questions = ({ques , wrapperClassName}) => {
+const Questions = ({ques , wrapperClassName ,defaultOpen = false}) => {
     
-const [isOpen, setIsOpen] = useState(false);
+const [isOpen, setIsOpen] = useState(defaultOpen);
 
 
 return(
       <div className='w-full flex flex-col '>
              
-                <div className={`flex flex-col border-2 border-[#F3D1BF] gap-4 mx-16 p-6 items-start justify-between ${wrapperClassName} ${isOpen ? 'bg-white' : ''}`}>
+                <div className={`flex flex-col border-2 border-[#F3D1BF] gap-4 mx-0 md:mx-16 p-6 items-start justify-between ${wrapperClassName} ${isOpen ? 'bg-white' : ''}`}>
                                      
                  <div className="flex w-full justify-between">
                     <span className='flex text-lg font-bold'>{ques}</span> 

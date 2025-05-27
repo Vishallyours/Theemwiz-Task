@@ -11,7 +11,7 @@ const PricingCard = ({
     const perkLabels = ["Brand Design", "Market Analysis", "Production"];
 
     return(
-        <div className={` flex flex-col justify-center items-start border-2 border-[#F3D1BF] rounded-md p-8 gap-8 transition-all duration-300 transform origin-bottom z-10 over ${isSelected ? 'bg-white scale-105 shadow-lg' : "bg-[#FDF0E9]"}`}>
+        <div className={`flex flex-col justify-center items-start border-2 border-[#F3D1BF] rounded-md p-8 gap-8 transition-all duration-300 transform origin-bottom z-10 over ${isSelected ? 'bg-white scale-105 shadow-lg' : "bg-[#FDF0E9]"}`}>
             
 
         <div className={` ${adClassName} ${isSelected ? "bg-[#EF6D58] text-white rounded-full p-4 pb-3" : "hidden" } `}>{ad}</div>

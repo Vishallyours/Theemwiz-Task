@@ -6,7 +6,7 @@ import PortfolioSection from "./sections/PortfolioSection";
 import PricingSection from "./sections/PricingSection";
 import FaqSection from "./sections/FaqSection";
 import ContactSection from "./sections/ContactSection";
-
+import Footer from "./components/Footer"; 
 function App() {
 
   return (
@@ -18,7 +18,10 @@ function App() {
     <PricingSection />
     <FaqSection />
     <ContactSection />
-    </>
+    <Footer/>
+
+    
+  </>
   )
 }
 
