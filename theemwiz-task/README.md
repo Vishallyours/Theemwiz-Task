@@ -1,12 +1,35 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🖼️ Design Reference
 
-Currently, two official plugins are available:
+Figma Design Link:  
+👉 [Theemwiz - Frontend Web Dev Technical Test](https://www.figma.com/file/SJ3vxUGZJ0WdL081dB8vUf/Theemwiz---Frontend-Web-Dev-Technical-Test)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- **Vite**
+- **React.js**
+- **Tailwind CSS**
+- HTML5 & CSS3 (through JSX + Tailwind utility classes)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- Pixel-perfect implementation of Figma design
+- Mobile responsive layout (optional requirement ✅)
+- Clean, semantic, and accessible HTML structure
+- Tailwind CSS for utility-first styling
+- Fully W3C validated HTML output
+
+## ✅ Setup Instructions
+
+To run the project locally:
+
+```bash
+# Step 1: Clone the repo
+git clone https://github.com/Vishallyours/Theemwiz-Task.git
+cd Theemwiz-Task/theemwiz-task
+
+# Step 2: Install dependencies
+npm install
+
+# Step 3: Start the development server
+npm run dev
